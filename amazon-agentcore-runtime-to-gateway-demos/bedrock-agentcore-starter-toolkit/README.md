@@ -55,7 +55,7 @@ Then invoke agent core with the sample prompt as below:
 agentcore invoke '{"prompt": "Give me the information about order with id 12345"}' 
 ```
 
-You can do the same with Python SDK by running [agentcore_runtime_demo_invoke.py](https://github.com/Vadym79/amazon-bedrock-agentcore-demos/blob/main/amazon-agentcore-runtime-to-gateway-demo/agentcore_runtime_demo_invoke.py) script.    
+You can do the same with Python SDK by running [invoke-agent.py](https://github.com/Vadym79/amazon-bedrock-agentcore-demos/blob/main/amazon-agentcore-runtime-to-gateway-demos/bedrock-agentcore-starter-toolkit/invoke_agent.py) script.    
 Please replace the value of the variable agentRuntimeArn="{YOUR_RUNTIME_ARN}" in this file with the valid Agentcore Runtime ARN deployed in the previous step (agentcore configure) 
 
 For more examples please view the article [Deploying Strands Agents to Amazon Bedrock AgentCore Runtime](https://strandsagents.com/latest/documentation/docs/user-guide/deploy/deploy_to_bedrock_agentcore/). 
