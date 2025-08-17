@@ -1,6 +1,6 @@
 ## Example of how to run deploy and invoke Amazon Bedrock [AgentCore Runtime](https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/agents-tools-runtime.html)
 
-In this example I use [Strands Agents](https://strandsagents.com/latest/) talking to the CoreAgent Gateway.  
+In this example I use [Strands Agents](https://strandsagents.com/latest/) talking to the AgentCore Gateway.  
 
 ## Prerequisites:  
 
