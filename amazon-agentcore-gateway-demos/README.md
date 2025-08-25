@@ -1,7 +1,7 @@
 ## Examples of how to use Amazon Bedrock [AgentCore Gateway](https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/gateway.html)
 
 
-## Article 
+## Articles 
 Please follow my [Amazon Bedrock AgentCore Gateway Series' Articles](https://dev.to/vkazulkin/series/32759) consisting of:  
 
 Part 1: [Introduction](https://dev.to/aws-heroes/amazon-bedrock-agentcore-gateway-part-1-introduction-1pjl)  

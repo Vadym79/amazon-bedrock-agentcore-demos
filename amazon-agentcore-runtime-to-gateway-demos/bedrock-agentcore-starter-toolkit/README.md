@@ -2,7 +2,7 @@
 
 In this example I use [Strands Agents](https://strandsagents.com/latest/) talking to the AgentCore Gateway.  
 
-## Article 
+## Articles 
 
 [Amazon Bedrock AgentCore Runtime - Deploy the agent with the AgentCore Runtime Starter Toolkit](https://dev.to/aws-heroes/amazon-bedrock-agentcore-runtime-part-2-deploy-the-agent-with-the-agentcore-runtime-starter-3706)   
 
