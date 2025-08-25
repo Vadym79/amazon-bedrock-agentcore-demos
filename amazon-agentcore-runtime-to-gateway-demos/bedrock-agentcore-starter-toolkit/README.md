@@ -2,6 +2,11 @@
 
 In this example I use [Strands Agents](https://strandsagents.com/latest/) talking to the AgentCore Gateway.  
 
+## Article 
+
+[Amazon Bedrock AgentCore Runtime - Part 2 Deploy the agent with the AgentCore Runtime Starter Toolkit](https://dev.to/aws-heroes/amazon-bedrock-agentcore-runtime-part-2-deploy-the-agent-with-the-agentcore-runtime-starter-3706)   
+
+
 ## Prerequisites:  
 
 Already created AgentCore Gateway URL, for example with [Lambda Target](https://github.com/Vadym79/AWSLambdaJavaWithAmazonDSQL/blob/main/sample-app-with-pgjdbc/src/main/resources/AmazonBedrockAgentCoreGateway_Lambda_Function_Target.ipynb) or [API Gateway Taget](https://github.com/Vadym79/AWSLambdaJavaWithAmazonDSQL/blob/main/sample-app-with-pgjdbc/src/main/resources/AmazonBedrockAgentCoreGateway_API_Gateway_REST_API.ipynb).  
