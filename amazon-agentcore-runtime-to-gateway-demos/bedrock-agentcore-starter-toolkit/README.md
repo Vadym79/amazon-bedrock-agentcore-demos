@@ -4,7 +4,7 @@ In this example I use [Strands Agents](https://strandsagents.com/latest/) talkin
 
 ## Article 
 
-[Amazon Bedrock AgentCore Runtime - Part 2 Deploy the agent with the AgentCore Runtime Starter Toolkit](https://dev.to/aws-heroes/amazon-bedrock-agentcore-runtime-part-2-deploy-the-agent-with-the-agentcore-runtime-starter-3706)   
+[Amazon Bedrock AgentCore Runtime - Deploy the agent with the AgentCore Runtime Starter Toolkit](https://dev.to/aws-heroes/amazon-bedrock-agentcore-runtime-part-2-deploy-the-agent-with-the-agentcore-runtime-starter-3706)   
 
 
 ## Prerequisites:  
