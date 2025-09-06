@@ -17,7 +17,7 @@ import logging
 
 print("init")
 os.environ['AWS_DEFAULT_REGION'] = 'us-east-1'
-gateway_url = "${YOU_GATEWAY_URL}"
+gateway_url = "${YOUR_GATEWAY_URL}"
 
 app = FastAPI(title="Custom Strands Agent Server", version="1.0.0")
 print("app started")

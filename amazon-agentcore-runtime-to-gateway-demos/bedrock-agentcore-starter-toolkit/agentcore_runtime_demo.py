@@ -80,7 +80,7 @@ def get_full_tools_list(client):
 print("start initilization")
 os.environ['AWS_DEFAULT_REGION'] = 'us-east-1'
 
-gateway_url = "${YOU_GATEWAY_URL}"
+gateway_url = "${YOUR_GATEWAY_URL}"
 
 app = BedrockAgentCoreApp()
 
