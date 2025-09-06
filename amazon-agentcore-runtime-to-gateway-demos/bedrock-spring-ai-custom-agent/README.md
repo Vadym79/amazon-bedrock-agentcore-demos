@@ -1,0 +1,2 @@
+Please checkout [Spring AI Custom Agent Demo](https://github.com/Vadym79/SpringAIWithAmazonBedrock/tree/main/spring-ai-agent-demo) for the custom Agent written in Java which does exactly the same what
+[Strands Custom Agent in Python](https://github.com/Vadym79/amazon-bedrock-agentcore-demos/tree/main/amazon-agentcore-runtime-to-gateway-demos/bedrock-agentcore-custom-agent) does.  
