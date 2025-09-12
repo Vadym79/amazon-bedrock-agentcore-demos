@@ -115,9 +115,9 @@ async def invoke_agent(request: InvocationRequest):
                 detail="No prompt found in input. Please provide a 'prompt' key in the input."
             )
 
-        model = BedrockModel(
-            model_id="us.amazon.nova-pro-v1:0",
-            temperature=0.7)
+        #model = BedrockModel(
+           # model_id="us.amazon.nova-pro-v1:0",
+           # temperature=0.7)
 
         user_pool_id, client_id, client_secret, scopeString = get_auth_info()
         access_token = get_auth_token(user_pool_id, client_id, client_secret, scopeString)
@@ -129,7 +129,7 @@ async def invoke_agent(request: InvocationRequest):
             print(f"Found the following tools: {[tool.tool_name for tool in tools]}")
 
             agent = Agent(
-                                #model=model,
+                                #model=model,  #use the default Bedrock Model which is Anthropic Claude Sonnet 
                                 tools=tools,
                                 system_prompt="Please answer the questions about the order statistics. "
                                                 "If you received a personal information about the user you chat with "
