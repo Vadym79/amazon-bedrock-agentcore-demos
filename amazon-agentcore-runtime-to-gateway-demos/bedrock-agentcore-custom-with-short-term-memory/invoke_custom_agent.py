@@ -6,16 +6,15 @@ os.environ['AWS_DEFAULT_REGION'] = 'us-east-1'
 # Initialize the Bedrock AgentCore client
 agent_core_client = boto3.client('bedrock-agentcore')
 
-
 payload = json.dumps({
-     "input": {"prompt": "Give me the information about order with id 1"}
+     "input": {"prompt": "Hi, my name is Vadym. Today is a sunny weather. Give me the information about order with id 1230"}
 })
 
 
-#payload = json.dumps({
-#    "input": {"prompt": "Can you list orders created between 1 of August 2025 5am and 7 of August 2025 3am. "
-#                       "Please use the following date format, for example: 2025-08-02T19:50:55"})
-#})
+# payload = json.dumps({
+  #   "input": {"prompt": "Tell me please: what is my name and how is the weather today?"}
+# })
+
 
 
 print(payload)

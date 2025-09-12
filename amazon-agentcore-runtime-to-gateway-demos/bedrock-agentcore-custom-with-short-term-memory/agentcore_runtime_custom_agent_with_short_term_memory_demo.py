@@ -128,11 +128,15 @@ async def invoke_agent(request: InvocationRequest):
             tools = get_full_tools_list(mcp_client)
             print(f"Found the following tools: {[tool.tool_name for tool in tools]}")
 
-            agent = Agent(model=model,
-                          tools=tools,
-                          system_prompt="Please only answer the questions about the orders",
-                          hooks=[MemoryHookProvider(client, memory_id)],
-                          state={"actor_id": ACTOR_ID, "session_id": SESSION_ID})
+            agent = Agent(
+                                #model=model,
+                                tools=tools,
+                                system_prompt="Please answer the questions about the order statistics. "
+                                                "If you received a personal information about the user you chat with "
+                                                "or this user told you during previous conversation some facts like about the weather or his mood, "
+                                                "feel free to also provide it in your answer. If you don't have the answer to such questions please tell it so.",
+                                hooks=[MemoryHookProvider(client, memory_id)],
+                                state={"actor_id": ACTOR_ID, "session_id": SESSION_ID})
             result = agent(prompt)
 
         response = {
