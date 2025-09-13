@@ -10,11 +10,13 @@ payload = json.dumps({
      "input": {"prompt": "Hi, my name is Vadym. Today is a sunny weather. Give me the information about order with id 1230"}
 })
 
+#payload = json.dumps({
+    # "input": {"prompt": "Please summarize all orders you already have information about"}
+#})
 
-# payload = json.dumps({
-  #   "input": {"prompt": "Tell me please: what is my name and how is the weather today?"}
-# })
-
+#payload = json.dumps({
+ #    "input": {"prompt": "Tell me please: what is my name and how is the weather today?"}
+#})
 
 
 print(payload)
