@@ -1,7 +1,7 @@
 from strands.hooks import AgentInitializedEvent, HookProvider, HookRegistry, MessageAddedEvent
 from bedrock_agentcore.memory import MemoryClient
 
-class MemoryHookProvider(HookProvider):
+class ShortTermMemoryHookProvider(HookProvider):
     def __init__(self, memory_client: MemoryClient, memory_id: str):
         self.memory_client = memory_client
         self.memory_id = memory_id

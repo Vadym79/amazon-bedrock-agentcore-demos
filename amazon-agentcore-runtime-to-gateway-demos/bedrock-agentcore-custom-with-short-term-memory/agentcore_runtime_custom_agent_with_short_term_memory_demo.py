@@ -6,7 +6,7 @@ from strands import Agent
 from strands.models import BedrockModel
 from strands.tools.mcp.mcp_client import MCPClient
 from mcp.client.streamable_http import streamablehttp_client
-from strands_agents_memory_hook import MemoryHookProvider
+from strands_agents_short_term_memory_hook import ShortTermMemoryHookProvider
 from bedrock_agentcore.memory import MemoryClient
 
 import os
@@ -135,7 +135,7 @@ async def invoke_agent(request: InvocationRequest):
                                                 "If you received a personal information about the user you chat with "
                                                 "or this user told you during previous conversation some facts like about the weather or his mood, "
                                                 "feel free to also provide it in your answer. If you don't have the answer to such questions please tell it so.",
-                                hooks=[MemoryHookProvider(client, memory_id)],
+                                hooks=[ShortTermMemoryHookProvider(client, memory_id)],
                                 state={"actor_id": ACTOR_ID, "session_id": SESSION_ID})
             result = agent(prompt)
 
