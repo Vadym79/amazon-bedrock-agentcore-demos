@@ -11,7 +11,7 @@ RUN pip install -r requirements.txt
 # Copy agent file
 COPY agentcore_runtime_custom_agent_with_short_term_memory_demo.py ./
 COPY agent_core_utils.py ./
-COPY strands_agents_memory_hook.py ./
+COPY strands_agents_short_term_memory_hook.py ./
 
 # Expose port
 EXPOSE 8080

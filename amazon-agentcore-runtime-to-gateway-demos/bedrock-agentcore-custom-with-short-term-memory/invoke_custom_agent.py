@@ -11,6 +11,10 @@ payload = json.dumps({
 })
 
 #payload = json.dumps({
+ #    "input": {"prompt": "Hi, give me the information about order with id 1225"}
+#})
+
+#payload = json.dumps({
     # "input": {"prompt": "Please summarize all orders you already have information about"}
 #})
 
