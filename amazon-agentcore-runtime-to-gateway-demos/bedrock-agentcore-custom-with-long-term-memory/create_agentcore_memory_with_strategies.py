@@ -36,12 +36,12 @@ client = MemoryClient(region_name=os.environ['AWS_DEFAULT_REGION'])
 memory_name = "OrderStatisticsAgentMemoryWithStrategies"
 
 try:
-    # Create memory resource without strategies (thus only access to short-term memory)
+    # Create memory resource with strategies (thus access to long-term memory)
     memory = client.create_memory_and_wait(
         name=memory_name,
         strategies=strategies,
         description="Long-term memory for personal agent",
-        event_expiry_days=7, # Retention period for short-term memory. This can be upto 365 days.
+        event_expiry_days=7, # Retention period for long-term memory. This can be upto 365 days.
     )
     memory_id = memory['id']
     print(f"✅ Created memory: {memory_id}")
