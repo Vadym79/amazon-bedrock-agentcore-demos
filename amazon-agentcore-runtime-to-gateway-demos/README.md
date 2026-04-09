@@ -1,7 +1,7 @@
 ## Examples of how to use Amazon Bedrock [AgentCore Runtime](https://docs.aws.amazon.com/bedrock-agentcore/latest/devguide/agents-tools-runtime.html)
 
 ## Articles 
-Please follow my [Amazon Bedrock AgentCore Runtime Series' Articles](https://dev.to/vkazulkin/series/33004) consisting of:
+Please follow my [Amazon Bedrock AgentCore Runtime Series' Articles](https://dev.to/vkazulkin/series/34351) consisting of:
 
 Part 1: [Introduction](https://dev.to/aws-heroes/amazon-bedrock-agentcore-runtime-part-1-introduction-e5i)  
 Part 2: [Using Bedrock AgentCore Runtime Starter Toolkit with Strands Agents SDK](https://dev.to/aws-heroes/amazon-bedrock-agentcore-runtime-part-2-deploy-the-agent-with-the-agentcore-runtime-starter-3706)    
